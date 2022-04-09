@@ -1,0 +1,40 @@
+strict digraph {
+graph [layout=dot,rankdir=LR];
+n_1279 [label="dot
+10.341 ms",color="#000000",shape="ellipse",penwidth=5];
+n_1276 [label="dot
+9.717 ms",color="#FFFF74",shape="ellipse",penwidth=5];
+n_1278 [label="dot
+10.623 ms",color="#FF9BFF",shape="ellipse",penwidth=5];
+n_1277 [label="dot
+9.109 ms",color="#00D3FF",shape="ellipse",penwidth=5];
+n_1280 [label="#9
+23.404 ms",color="#00D3FF",shape="ellipse",penwidth=5];
+n_arg_1_to_1279 [label="Vector{Float64}
+Shape: (10000000,)
+Size: 76.2939453125 MB (megabytes)",color="black",shape="ellipse",penwidth=5];
+n_arg_1_to_1279 -> n_1279 [label="Move: 6.575 ms",color="black;0.5:#000000",penwidth=2];
+n_arg_2_to_1279 [label="Vector{Float64}
+Shape: (10000000,)
+Size: 76.2939453125 MB (megabytes)",color="black",shape="ellipse",penwidth=5];
+n_arg_2_to_1279 -> n_1279 [label="Move: 9.875 us",color="black;0.5:#000000",penwidth=2];
+n_arg_1_to_1278 [label="Vector{Float64}
+Shape: (10000000,)
+Size: 76.2939453125 MB (megabytes)",color="black",shape="ellipse",penwidth=5];
+n_arg_1_to_1278 -> n_1278 [label="Move: 6.198 ms",color="black;0.5:#FF9BFF",penwidth=2];
+n_arg_2_to_1279 -> n_1278 [label="Move: 9.834 us",color="black;0.5:#FF9BFF",penwidth=2];
+n_arg_1_to_1276 [label="Vector{Float64}
+Shape: (10000000,)
+Size: 76.2939453125 MB (megabytes)",color="black",shape="ellipse",penwidth=5];
+n_arg_1_to_1276 -> n_1276 [label="Move: 7.046 ms",color="black;0.5:#FFFF74",penwidth=2];
+n_arg_2_to_1279 -> n_1276 [label="Move: 8.833 us",color="black;0.5:#FFFF74",penwidth=2];
+n_arg_1_to_1277 [label="Vector{Float64}
+Shape: (10000000,)
+Size: 76.2939453125 MB (megabytes)",color="black",shape="ellipse",penwidth=5];
+n_arg_1_to_1277 -> n_1277 [label="Move: 6.176 ms",color="black;0.5:#00D3FF",penwidth=2];
+n_arg_2_to_1279 -> n_1277 [label="Move: 5.916 us",color="black;0.5:#00D3FF",penwidth=2];
+n_1277 -> n_1280 [label="Move: 18.522 ms",color="#00D3FF;0.5:#00D3FF",penwidth=2];
+n_1276 -> n_1280 [label="Move: 47.211 ms",color="#FFFF74;0.5:#00D3FF",penwidth=2];
+n_1278 -> n_1280 [label="Move: 30.889 ms",color="#FF9BFF;0.5:#00D3FF",penwidth=2];
+n_1279 -> n_1280 [label="Move: 30.832 ms",color="#000000;0.5:#00D3FF",penwidth=2];
+}
